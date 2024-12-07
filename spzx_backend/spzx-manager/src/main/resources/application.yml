@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: server-manager
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework: DEBUG
+    com.atguigu.spzx: DEBUG
+
+
